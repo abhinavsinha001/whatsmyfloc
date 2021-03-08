@@ -8,7 +8,8 @@ function getFlocId() {
 }
 
 function storeFlocId(data){
-  var oldIds = JSON.parse(localStorage.getItem('flocId')) || [];
+  var olddata=localStorage.getItem('flocId')
+  var oldIds = JSON.parse(olddata) || [];
   if (oldIds.includes(data)){   
     console.log("FLoC ID not updated:"+data);
   }else{
@@ -18,7 +19,8 @@ function storeFlocId(data){
 }
 
 function displayFlocIds(){
-  var flocIds = JSON.parse(localStorage.getItem('flocId')) || [];
+  var data=localStorage.getItem('flocId')
+  var flocIds = JSON.parse(data) || [];
   var html = "<table border='1|1'>";
   for (var i = 0; i < flocIds.length; i++) {
       html+="<tr>";
