@@ -22,7 +22,7 @@ function displayFlocIds(){
   var data=localStorage.getItem('flocId')
   var flocIds = JSON.parse(data) || [];
   var html = "<table border='1|1'>";
-  for (var i = 0; i < flocIds.length; i++) {
+  for (var i = flocIds.length-1; i >= 0; i--) {
       html+="<tr>";
       html+="<td>"+flocIds[i]+"</td>";
       html+="</tr>";
