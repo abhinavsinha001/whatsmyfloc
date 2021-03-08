@@ -9,9 +9,7 @@ function getFlocId() {
 
 function storeFlocId(data){
   var oldIds = JSON.parse(localStorage.getItem('flocId')) || [];
-  if oldIds.includes(data){
-    
-  }else{
+  if (oldIds.includes(data)){   
     console.log("FLoC ID not updated:"+data);
   }else{
     oldIds.push(data)
