@@ -10,7 +10,7 @@ More details on following sites:
 
 This is the initial checklist for browser setting to generate FLoC IDs
 
-```markdown
+
 Chrome **Version 89** is the minimum requirement and additional settings include
 
 1. The user is logged into a Google account and opted to sync history data with Chrome
