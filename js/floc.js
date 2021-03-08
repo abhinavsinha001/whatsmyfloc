@@ -24,7 +24,7 @@ function displayFlocIds(){
   var html = "<table border='1|1'>";
   for (var i = 0; i < flocIds.length; i++) {
       html+="<tr>";
-      html+="<td>"+flocIds+"</td>";
+      html+="<td>"+flocIds[i]+"</td>";
       html+="</tr>";
   }
   html+="</table>";
