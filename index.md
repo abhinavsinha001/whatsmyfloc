@@ -1,39 +1,26 @@
-## Welcome to GitHub Pages
+## Welcome to WhatsMyFloc
 
-You can use the [editor on GitHub](https://github.com/abhinavsinha001/whatsmyfloc/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is a demo site to check your FLoC Id which is an experimental feature being tested by Chrome.
+More details on following sites:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[WICG/floc](https://github.com/WICG/floc)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Checklist for FLoC
+
+This is the initial checklist for browser setting to generate FLoC IDs
 
 ```markdown
-Syntax highlighted code block
+Chrome **Version 89** is the minimum requirement and additional settings include
 
-# Header 1
-## Header 2
-### Header 3
+1. The user is logged into a Google account and opted to sync history data with Chrome
+1. The user does not block third-party cookies
+1. The user’s [Google Activity Controls](https://myaccount.google.com/activitycontrols) have the following enabled:
+    1. “Web & App Activity”
+    1. “Include Chrome history and activity from sites, apps, and devices that use Google services”
+1. The user’s [Google Ad Settings](https://adssettings.google.com/) have the following enabled:
+    1. “Ad Personalization”
+    1. “Also use your activity & information from Google services to personalize ads on websites and apps that partner with Google to show ads.” 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/abhinavsinha001/whatsmyfloc/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 <script src="{{ site.baseurl }}/js/floc.js"></script>
