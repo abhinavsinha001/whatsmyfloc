@@ -14,7 +14,7 @@ function storeFlocId(data){
     console.log("FLoC ID not updated:"+data);
   }else{
     oldIds.push(data)
-    localStorage.setItem("flocId",data)
+    localStorage.setItem("flocId",JSON.stringify(oldIds))
   }
 }
 
