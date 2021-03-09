@@ -28,6 +28,8 @@ function displayFlocIds(){
       html+="<td>"+flocIds[i]+"</td>";
       if (i==(flocIds.length-1)){
         html+="<td>Current</td>";
+      }else{
+        html+="<td></td>";
       }
       html+="</tr>";
   }
