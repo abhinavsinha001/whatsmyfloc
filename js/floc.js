@@ -23,8 +23,12 @@ function displayFlocIds(){
   var flocIds = JSON.parse(data) || [];
   var html = "<table border='1|1'>";
   for (var i = flocIds.length-1; i >= 0; i--) {
+      
       html+="<tr>";
       html+="<td>"+flocIds[i]+"</td>";
+      if (i==(flocIds.length-1)){
+        html+="<td>Current</td>";
+      }
       html+="</tr>";
   }
   html+="</table>";
