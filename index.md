@@ -26,3 +26,11 @@ Chrome **Version 89** is the minimum requirement and additional settings include
 
 
 <script src="{{ site.baseurl }}/js/floc.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QKD8ETPEHK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QKD8ETPEHK');
+</script>
