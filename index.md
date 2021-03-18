@@ -34,3 +34,4 @@ Chrome **Version 89** is the minimum requirement and additional settings include
 
   gtag('config', 'G-QKD8ETPEHK');
 </script>
+<meta http-equiv="origin-trial" content="Atbn13a9CXesn5Gi+jZKUO2HUbYne2TlpzqW5oVg2JqxP1kf+nLrkxLjZwPGMcPzNW0z0B5CrRqVTzSz9K6KAgUAAABweyJvcmlnaW4iOiJodHRwczovL3d3dy53aGF0c215ZmxvYy5tbDo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
