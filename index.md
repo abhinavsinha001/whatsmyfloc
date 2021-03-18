@@ -24,3 +24,4 @@ Chrome **Version 89** is the minimum requirement and additional settings include
     1. “Ad Personalization”
     1. “Also use your activity & information from Google services to personalize ads on websites and apps that partner with Google to show ads.” 
 
+{% include head.html %}
