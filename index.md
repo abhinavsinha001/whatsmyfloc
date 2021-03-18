@@ -24,13 +24,3 @@ Chrome **Version 89** is the minimum requirement and additional settings include
     1. “Ad Personalization”
     1. “Also use your activity & information from Google services to personalize ads on websites and apps that partner with Google to show ads.” 
 
-
-<script src="{{ site.baseurl }}/js/floc.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QKD8ETPEHK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-QKD8ETPEHK');
-</script>
