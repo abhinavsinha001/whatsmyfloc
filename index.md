@@ -34,6 +34,3 @@ Chrome **Version 89** is the minimum requirement and additional settings include
 
   gtag('config', 'G-QKD8ETPEHK');
 </script>
-<head>
-{% include head.html %}
-</head>
