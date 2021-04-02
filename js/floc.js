@@ -1,6 +1,6 @@
 function getFlocId() {
   if(typeof document.interestCohort !== "undefined"){
-    document.interestCohort().then(data => storeFlocId(data));
+    document.interestCohort().then(data => storeFlocId(data.id+'-'+data.version));
     displayFlocIds();
   }else{
     window.alert("FLoC feature not available/enabled on browser")
@@ -8,6 +8,7 @@ function getFlocId() {
 }
 
 function storeFlocId(data){
+  var newData=data.id+
   var olddata=localStorage.getItem('flocId')
   var oldIds = JSON.parse(olddata) || [];
   if (oldIds.includes(data) && oldIds[oldIds.length-1]== data){
