@@ -30,7 +30,6 @@ Chrome **Version 89** is the minimum requirement and additional settings include
 MacOS
 ```
 open -na Google\ Chrome --args --enable-blink-features=InterestCohortAPI --enable-features="FederatedLearningOfCohorts:update_interval/10s/minimum_history_domain_size_required/1,FlocIdSortingLshBasedComputation,InterestCohortFeaturePolicy"
-
 ```
 Windows - append following in Chrome Shortcut:
 
