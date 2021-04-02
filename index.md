@@ -25,3 +25,15 @@ Chrome **Version 89** is the minimum requirement and additional settings include
     1. “Also use your activity & information from Google services to personalize ads on websites and apps that partner with Google to show ads.” 
 
 {% include head.html %}
+
+### If you want to force enable the feature use following flags:
+MacOS
+```
+open -na Google\ Chrome --args --enable-blink-features=InterestCohortAPI --enable-features="FederatedLearningOfCohorts:update_interval/10s/minimum_history_domain_size_required/1,FlocIdSortingLshBasedComputation,InterestCohortFeaturePolicy"
+
+```
+Windows - append following in Chrome Shortcut:
+
+```
+--enable-blink-features=InterestCohortAPI --enable-features="FederatedLearningOfCohorts:update_interval/10s/minimum_history_domain_size_required/1,FlocIdSortingLshBasedComputation,InterestCohortFeaturePolicy"
+```
