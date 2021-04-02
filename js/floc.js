@@ -8,7 +8,6 @@ function getFlocId() {
 }
 
 function storeFlocId(data){
-  var newData=data.id+
   var olddata=localStorage.getItem('flocId')
   var oldIds = JSON.parse(olddata) || [];
   if (oldIds.includes(data) && oldIds[oldIds.length-1]== data){
